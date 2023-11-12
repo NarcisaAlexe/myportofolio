@@ -1,56 +1,16 @@
 {% load static %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Narcisa Alexe</title>
-        <link rel="icon" type="image/x-icon" href={% static "porto/assets/favicon.ico" %} />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{% static 'porto/css/styles.css' %}" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Portofolio</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="{% url 'curriculum' %}">Curriculum</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'projects' %}">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'contact_form' %}">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <title>Narcisa Alexe</title>
+</head>
+<body>
+    <h1>Narcisa CV</h1>
+    <p>Acesta este cv-ul Narcisei Alexe</p>
 
-        <!-- Masthead-->
-<!--        <header class="masthead">-->
-<!--            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">-->
-<!--                <div class="d-flex justify-content-center">-->
-<!--                    <div class="text-center">-->
-<!--                        <h3 class="mx-auto my-0 text-uppercase">Portofoliu</h3>-->
-                        <img class="img-fluid" src={% static "porto/assets/img/cv_img.png" %} alt="..." />
-<!--&lt;!&ndash;                       <form method ='post' enctype ="multipart/form-data">&ndash;&gt;-->
-<!--&lt;!&ndash;                            {% csrf_token %}&ndash;&gt;-->
-<!--&lt;!&ndash;                            {{form}}&ndash;&gt;-->
-<!--&lt;!&ndash;                            <input type="submit" value = "Submit">&ndash;&gt;-->
-<!--&lt;!&ndash;                        </form>&ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </header>-->
-
-    </body>
+    <a href="{% url 'display_pdf' pdf_name='ex.pdf' %}">View PDF</a>
+</body>
 </html>
+
+

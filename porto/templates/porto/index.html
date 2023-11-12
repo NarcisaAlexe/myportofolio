@@ -28,7 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="{% url 'curriculum' %}">Curriculum</a></li>
+                         <li class="nav-item"><a class="nav-link" href="{% url 'display_pdf'  pdf_name='ex.pdf'%}">Curriculum</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'projects' %}">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'contact_form' %}">Contact</a></li>
                     </ul>
@@ -43,7 +43,6 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-white-50 text-uppercase">Portofoliu</h1>
 <!--                        <h4 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h4>-->
-                        <a class="btn btn-primary" href="{% url 'curriculum' %}" >Curriculum</a>
                     </div>
                 </div>
             </div>
@@ -129,8 +128,8 @@
                         <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Email address input-->
                             <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Curs Udemy..." aria-label="Curs Python Udemy" data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Mergi la curs</button></div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
