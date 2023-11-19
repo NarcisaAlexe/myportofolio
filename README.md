@@ -30,7 +30,7 @@ Exemplu: http://127.0.0.1:8000/. La accesarea paginii, vom interacționa cu pagi
 
 ## Aplicabilitate <a name="usage"></a>
 
-Dupa accesarea link-ului putem naviga pe pagina de start și pe celelalte pagini afișate în partea dreapta, respectiv pagina în care se afla cv-ul, pagina cu proiecte și pagina de contact.
+După accesarea link-ului putem naviga pe pagina de start și pe celelalte pagini afișate în partea dreapta, respectiv pagina în care se afla cv-ul, pagina cu proiecte și pagina de contact.
 ## Caracteristici <a name="features"></a>
 ### models
 
