@@ -34,13 +34,13 @@ După accesarea link-ului putem naviga pe pagina de start și pe celelalte pagin
 ## Caracteristici <a name="features"></a>
 ### models
 
-Aici se va regasit codul pentru clasa Contact
+Aici se va regasi codul pentru clasa Contact
 
 
 from django.db import models
 from django.http import HttpResponse, FileResponse, Http404
 from django.shortcuts import render
-# from django import forms
+from django import forms
 
 
 class Contact(models.Model):
